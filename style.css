@@ -1,11 +1,16 @@
 header, nav, main, footer {
   display: block;
   width: 1078px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
 }
 
 body {
   color: #ffffff;
   background-color: #000000;
+  margin: 0px;
+  text-align: center;
 }
 
 div {
@@ -13,6 +18,42 @@ div {
   height: 100px;
 }
 
+#col-left {
+  background-color: #006acc;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#col-center {
+  background-color: grey;
+  width: 600px;
+  height: auto;
+}
+
+footer {
+  clear: both;
+}
+
 main {
   height: auto;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+  margin: auto;
+  width: 1078px;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height:40px;
+  border: 2px dotted #731980;
 }
