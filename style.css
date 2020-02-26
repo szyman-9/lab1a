@@ -1,14 +1,12 @@
 header, nav, main, footer {
   display: block;
   width: 1078px;
-  position: relative;
-  height: auto;
   overflow: hidden;
 }
 
 body {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #b3b3b3;
   margin: 0px;
   text-align: center;
 }
@@ -33,6 +31,7 @@ div {
 
 footer {
   clear: both;
+  background-color: #808080;
 }
 
 main {
@@ -55,5 +54,22 @@ main {
   left: 10px;
   width: 200px;
   height:40px;
-  border: 2px dotted #731980;
+
+}
+
+#logo img {
+  max=height: 100px;
+}
+
+header {
+  height: 120px;
+  background-color: #808080;
+}
+
+nav {
+  background-color: white;
+  height: 30px;
+  color: black;
+  text-align: left;
+  font-size: 20px;
 }
